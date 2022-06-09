@@ -9,7 +9,8 @@ header {
     justify-content: flex-end;
     align-items: center;
     padding: 20px 50px;
-    box-shadow: 0 1px 8px #ddd;
+    box-shadow: 0 5px 20px rgb(51, 51, 51);
+    background: linear-gradient(white,#4a4a4a80) ;
 }
 
 #nav-logo {
@@ -33,3 +34,34 @@ header a {
 header a:hover {
     color: #b2dfdb;
 }
+
+.layer1cont {
+    width: 85%;
+    height: 100%;
+    border-radius: 1.5em;
+    margin: 8em auto 0 auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 20px;
+    background-color: rgba(0, 0, 0, 0.7);
+    box-shadow: 0 0 2em rgb(69 69 69);
+}
+
+#welcome {
+    font-size: 2.2em;
+    text-shadow: 0 0 0.8em rgb(255 255 255);
+    text-align: center;
+    font-family: "kawashiro", sans-serif;
+}
+
+.layer1bg{
+    background-image: linear-gradient(rgba(0,0,0,0.75),rgba(0,0,0,0.75)),url(https://www.youtube.com/watch?v=-EhYUhlHm9U);
+    height: 100%;
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
